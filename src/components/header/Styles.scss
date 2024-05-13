@@ -1,0 +1,59 @@
+.swiper {
+    max-width: 1248px;
+    height: 330px;
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    max-width: 1248px;
+    height: 330px;
+    width: 100%;
+    cursor: pointer;
+    background: #fff;
+    background-color: rgb(91, 91, 91);
+
+  
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .swiper_btn{
+    padding: 15px 45px;
+    background-color: white;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    &:hover{
+     background-color: rgba(0, 0, 0, 0.941);
+     color: white;
+    }
+  }
+
+  .swiper_content{
+     padding: 40px;
+  }
+
+  .swiper_title{
+    color: white;
+    width: 300px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+  }
+
+  .swiper_text{
+    color: white;
+    font-size: 1.0625rem;
+    width: 300px;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  

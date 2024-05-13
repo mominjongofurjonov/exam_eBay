@@ -1,0 +1,47 @@
+.search-panel-wrapper{
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+    position: absolute;
+    right: 270px;
+    z-index: 2;
+    top: 32px;
+}
+
+.modal_link{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.modal_informer{
+    width: 250px;
+}
+
+.modal_heading{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    a{
+        color: black;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        svg{
+            font-weight: 100;
+        }
+
+    }
+   
+}
+
+.modal_wishlist_wrapper{
+    width: 200px;
+}
+
+.modal_wishlist{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+}

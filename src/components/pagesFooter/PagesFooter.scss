@@ -1,0 +1,38 @@
+.pages_footer_wrapper{
+    max-width: 1248px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.pages_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    li{
+        color: #555;
+        font-size: 12px;
+        cursor: pointer;
+    }
+}
+
+.copyright_footer{
+    color: rgb(65, 65, 63);
+font-size: 11px;
+font-weight: 400;
+line-height: 11px;
+letter-spacing: 0%;
+text-align: left;
+span{
+    text-decoration: underline;
+
+}
+}

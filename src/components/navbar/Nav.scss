@@ -1,0 +1,175 @@
+.nav{
+    height: auto;
+    margin: auto;
+}
+
+.inner_nav{
+ max-width: 1248px;
+ width: 100%;
+ height: 31px;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center; 
+
+ ul{
+    margin: 0;
+    padding: 0;
+    li{
+        cursor: pointer;
+        font-size: 12px;
+        .li_links{
+            color: blue;
+        }
+    }
+
+
+ }
+
+
+} 
+
+.chevron_icon{
+    font-size: 12px;
+}
+
+.left_ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+}
+
+.right_ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 400px;
+    position: relative;
+    width: 100%;
+}
+
+.modal_select{
+    display: flex;
+    gap: 5px;
+}
+
+.icon_bell{
+   font-size: 23px;
+}
+
+.icon_cart{
+    font-size: 23px;
+    color: black;
+}
+
+
+.inner_nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    .shop_by{
+     width: 90px;
+     height: 43px;
+     cursor: pointer;
+     font-size: 14px;
+     color: #555;
+     margin: 0;
+     margin-right: 5px;
+     position: relative;
+     display: flex;
+     align-items: center;
+     transition: 0.1s ease-in-out;
+     svg{
+        font-size: 20px;
+     }
+     &:hover{
+        color: rgba(0, 0, 255, 0.59);
+     }
+    }
+}
+
+
+.nav_input{
+    padding: 9px 0 9px 40px;
+    box-sizing: border-box;
+    font-size: 16px;
+    width: 787px;
+    color: #767676;
+    outline: none;
+    border: 2px solid black;
+    &::placeholder{
+        line-height: 20px;
+        font-size: 16px;
+        color: #767676;
+    }
+}
+
+
+
+.select_2{
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    top: 3px;
+    left: 718px;
+    border: none;
+    outline: none;
+}
+
+.search_icon{
+   position: absolute;
+   left: 100px;
+   top: 10px;
+   background-color: transparent;
+   border: none;
+   font-size: 18px;
+   cursor: pointer;
+   color: #555;
+}
+
+.select{
+    width: 80px;
+    height: 20px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #66666651;
+    margin: auto;
+}
+
+.nav_form{
+    display: flex;
+    gap: 5px;
+    position: relative;
+}
+
+.search_btn{
+    background-color: #3665f3;
+    color: white;
+    border: none;
+    padding: 0 62px;
+    font-size: 14px;
+    font-weight: normal;
+    cursor: pointer;
+    transition: .3s;
+    &:hover{
+        background-color: black;
+    }
+}
+
+.advanced{
+    font-size: 11px;
+    display: block;
+    line-height: 40px;
+    padding: 0 10px;
+    white-space: nowrap;
+    color: #666;
+    cursor: pointer;
+}

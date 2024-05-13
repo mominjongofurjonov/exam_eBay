@@ -1,0 +1,128 @@
+.swiper_wrapper{
+    max-width: 600px;
+    
+}
+
+.swiper_wrapper2{
+    max-width: 600px;
+    height: auto;
+    margin-top: 30px;
+ 
+}
+
+
+.single_page_extra{
+    margin-bottom: 50px;
+    font-size: 24px;
+    span{
+        color: red;
+    }
+}
+
+.swiper_slide1{
+    height: 100px;
+}
+
+.swiper_controller{
+    display: flex;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+}
+
+.single_page_wrapper{
+    max-width: 1248px;
+    width: 100%;
+   margin: auto;
+   margin-top: 80px;
+}
+
+.single_page_container{
+    display: flex;
+}
+
+.single_page_content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 90px;
+    gap: 5px;
+}
+
+.single_page_product_title{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-style: italic;
+    color: #555;
+    margin: 0;
+    span{
+        font-style: normal;
+        color: black;
+    }
+}
+
+.single_page_product_category{
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #555;
+      span{
+        font-style: normal;
+        color: black;
+      }
+}
+
+.single_page_product_brand{
+    color: #555;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bold;
+    span{
+        font-style: normal;
+        color: black;
+      }
+}
+
+.single_page_product_rating{
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+    span{
+        font-style: normal;
+        color: black;
+      }
+}
+
+.single_page_product_description{
+    color: #555;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0;
+    span{
+        font-style: normal;
+        color: black;
+      }
+}
+
+.single_page_product_price{
+    color: #555;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    span{
+        color: red;
+        text-decoration: line-through;
+    }
+    b{
+        
+            font-style: normal;
+            color: black;
+          
+    }
+}
+
+.single_page_buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
