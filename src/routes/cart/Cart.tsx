@@ -4,18 +4,19 @@ import { deleteItem, plusLike } from '../../redux/mainSlice';
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 import { Link } from 'react-router-dom';
 import { FaHeart } from 'react-icons/fa6';
+import { Product, State } from '../../types';
 
 
-const Watchlist = () => {
+const Cart = () => {
 
   const dispatch = useDispatch();
-  const likedata = useSelector(state => state.actions.stored);
+  const likedata = useSelector(( state: State) => state.actions.stored);
 
-  const removeFromCart = (product) => {
+  const removeFromCart = (product: Product) => {
     dispatch(deleteItem(product))
   }
 
-  const handleLikeProduct = (id) => {
+  const handleLikeProduct = (id: Product) => {
     dispatch(plusLike(id))
   }
 
@@ -24,10 +25,10 @@ const Watchlist = () => {
     <div>
       <h1 className="page_title"><i>{likedata.length}   items in your cart</i></h1>
       <div className="all_cards_wrapper">
-        {!likedata.length > 0 ?
+        {likedata.length === 0 ?
         <div className='start_shopping_btn_wrapper'> <Link to='/all-products'><button className='start_shopping'> Start shopping now</button></Link></div>
         :
-        likedata.map((product) => (
+        likedata.map((product: Product) => (
           <div key={product.id} className='product_cart_wrapper'>
             <Link to={`/product/${product.id}`}><img src={product.thumbnail} alt="" /></Link>
             <h2 className='pr_title'>{product.title}</h2>
@@ -43,4 +44,4 @@ const Watchlist = () => {
   )
 }
 
-export default Watchlist
+export default Cart
